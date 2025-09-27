@@ -1,0 +1,33 @@
+{
+  "standard": "iso27001",
+  "generated_at": "2025-09-20T00:46:23.155336",
+  "summary": {
+    "overall_score": 0.0,
+    "total_requirements": 1,
+    "passed": 0,
+    "failed": 1,
+    "warnings": 0,
+    "skipped": 0
+  },
+  "requirements": [
+    {
+      "id": "ISO27001-A.9.1",
+      "title": "Access Control Policy",
+      "description": "Implement access control policy",
+      "category": "access_control",
+      "priority": 1,
+      "status": "failed",
+      "score": 0.0,
+      "details": {
+        "error": "Check script check_access_control_policy not found"
+      },
+      "evidence": [],
+      "recommendations": []
+    }
+  ],
+  "recent_audit_events": [],
+  "recommendations": [
+    "Address 1 failed requirements immediately",
+    "Overall compliance score is below 80% - immediate action required"
+  ]
+}

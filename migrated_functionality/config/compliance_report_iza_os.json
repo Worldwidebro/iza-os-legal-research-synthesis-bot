@@ -1,0 +1,101 @@
+{
+  "standard": "iza_os",
+  "generated_at": "2025-09-20T00:46:24.105979",
+  "summary": {
+    "overall_score": 40.0,
+    "total_requirements": 5,
+    "passed": 2,
+    "failed": 2,
+    "warnings": 1,
+    "skipped": 0
+  },
+  "requirements": [
+    {
+      "id": "IZA-OS-001",
+      "title": "TypeScript Implementation",
+      "description": "Use TypeScript for all new projects with strict type checking",
+      "category": "code_quality",
+      "priority": 1,
+      "status": "warning",
+      "score": 70.0,
+      "details": {
+        "tsconfig_tsconfig.json": "found",
+        "tsconfig_tsconfig.node.json": "found",
+        "typescript_files": 1757,
+        "javascript_files": 7312,
+        "typescript_percentage": 19.37369059433234
+      },
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "IZA-OS-002",
+      "title": "Error Handling",
+      "description": "Implement comprehensive error handling with try-catch blocks",
+      "category": "code_quality",
+      "priority": 1,
+      "status": "failed",
+      "score": 0.0,
+      "details": {
+        "error": "Check script check_error_handling not found"
+      },
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "IZA-OS-003",
+      "title": "Security Headers",
+      "description": "Implement security headers (CSP, XSS protection, etc.)",
+      "category": "security",
+      "priority": 1,
+      "status": "failed",
+      "score": 0.0,
+      "details": {
+        "error": "Check script check_security_headers not found"
+      },
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "IZA-OS-004",
+      "title": "Monitoring Implementation",
+      "description": "Implement comprehensive monitoring and alerting",
+      "category": "monitoring",
+      "priority": 1,
+      "status": "passed",
+      "score": 100.0,
+      "details": {
+        "config_prometheus.yml": "found",
+        "config_dashboards.yml": "found",
+        "config_alertmanager.yml": "found",
+        "observability_service": "found",
+        "observability_dashboard": "found"
+      },
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "IZA-OS-005",
+      "title": "Testing Coverage",
+      "description": "Maintain 90%+ test coverage",
+      "category": "testing",
+      "priority": 1,
+      "status": "passed",
+      "score": 90.0,
+      "details": {
+        "test_files": 77,
+        "test_config_vitest.config.ts": "found",
+        "test_config_setup.ts": "found",
+        "coverage_reports": "not_found"
+      },
+      "evidence": [],
+      "recommendations": []
+    }
+  ],
+  "recent_audit_events": [],
+  "recommendations": [
+    "Address 2 failed requirements immediately",
+    "Review 1 warning requirements",
+    "Overall compliance score is below 80% - immediate action required"
+  ]
+}

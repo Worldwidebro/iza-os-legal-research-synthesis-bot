@@ -1,0 +1,35 @@
+{
+  "start_time": "2025-09-20T00:41:11.258995+00:00",
+  "success": true,
+  "components": {
+    "perplexica": {
+      "start_time": "2025-09-20T00:41:11.259053+00:00",
+      "success": true,
+      "components": {
+        "config_created": "/Users/divinejohns/memU/perplexica/config.toml",
+        "docker_compose_created": "/Users/divinejohns/memU/perplexica/docker-compose.yml",
+        "service_created": "/Users/divinejohns/memU/src/services/perplexicaService.ts",
+        "types_created": "/Users/divinejohns/memU/src/types/perplexica.ts"
+      },
+      "errors": [],
+      "end_time": "2025-09-20T00:41:11.259546+00:00"
+    },
+    "deepresearch": {
+      "start_time": "2025-09-20T00:41:11.259557+00:00",
+      "success": true,
+      "components": {
+        "service_created": "/Users/divinejohns/memU/src/services/deepResearchService.ts",
+        "types_created": "/Users/divinejohns/memU/src/types/deepResearch.ts",
+        "api_created": "/Users/divinejohns/memU/src/pages/api/research/deep.ts"
+      },
+      "errors": [],
+      "end_time": "2025-09-20T00:41:11.259804+00:00"
+    },
+    "hybrid_search": {
+      "service_created": "/Users/divinejohns/memU/src/services/hybridSearchService.ts",
+      "types_created": "/Users/divinejohns/memU/src/types/hybridSearch.ts"
+    }
+  },
+  "errors": [],
+  "end_time": "2025-09-20T00:41:11.259965+00:00"
+}

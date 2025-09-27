@@ -1,0 +1,33 @@
+{
+  "standard": "gdpr",
+  "generated_at": "2025-09-20T00:46:23.157621",
+  "summary": {
+    "overall_score": 0.0,
+    "total_requirements": 1,
+    "passed": 0,
+    "failed": 1,
+    "warnings": 0,
+    "skipped": 0
+  },
+  "requirements": [
+    {
+      "id": "GDPR-Art.32",
+      "title": "Security of Processing",
+      "description": "Implement appropriate technical and organizational measures",
+      "category": "data_protection",
+      "priority": 1,
+      "status": "failed",
+      "score": 0.0,
+      "details": {
+        "error": "Check script check_data_protection_measures not found"
+      },
+      "evidence": [],
+      "recommendations": []
+    }
+  ],
+  "recent_audit_events": [],
+  "recommendations": [
+    "Address 1 failed requirements immediately",
+    "Overall compliance score is below 80% - immediate action required"
+  ]
+}

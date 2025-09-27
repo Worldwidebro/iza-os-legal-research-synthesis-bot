@@ -1,0 +1,52 @@
+{
+  "standard": "soc2",
+  "generated_at": "2025-09-20T00:46:23.152169",
+  "summary": {
+    "overall_score": 0.0,
+    "total_requirements": 2,
+    "passed": 0,
+    "failed": 2,
+    "warnings": 0,
+    "skipped": 0
+  },
+  "requirements": [
+    {
+      "id": "SOC2-CC6.1",
+      "title": "Logical Access Security Software",
+      "description": "Implement logical access security software",
+      "category": "security",
+      "priority": 1,
+      "status": "failed",
+      "score": 40.0,
+      "details": {
+        "endpoint_/api/auth/login": "not_found",
+        "endpoint_/api/auth/logout": "not_found",
+        "endpoint_/api/auth/verify": "not_found",
+        "header_X-Content-Type-Options": "missing",
+        "header_X-Frame-Options": "missing",
+        "header_X-XSS-Protection": "missing"
+      },
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "SOC2-CC6.2",
+      "title": "Access Restriction",
+      "description": "Restrict access to information and systems",
+      "category": "security",
+      "priority": 1,
+      "status": "failed",
+      "score": 0.0,
+      "details": {
+        "error": "Check script check_access_restrictions not found"
+      },
+      "evidence": [],
+      "recommendations": []
+    }
+  ],
+  "recent_audit_events": [],
+  "recommendations": [
+    "Address 2 failed requirements immediately",
+    "Overall compliance score is below 80% - immediate action required"
+  ]
+}

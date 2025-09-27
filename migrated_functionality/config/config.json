@@ -1,0 +1,22 @@
+{
+  "name": "research_agent",
+  "role": "Market Research & Analysis",
+  "capabilities": [
+    "web_scraping",
+    "data_analysis",
+    "trend_identification",
+    "competitor_analysis"
+  ],
+  "dependencies": [
+    "ollama",
+    "chromadb",
+    "selenium"
+  ],
+  "endpoints": [
+    "/api/research",
+    "/api/analysis"
+  ],
+  "context_window": 32000,
+  "model_type": "llama3.1:8b",
+  "priority": 1
+}
